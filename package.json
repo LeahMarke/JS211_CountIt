@@ -1,0 +1,22 @@
+{
+  "name": "js211_countit",
+  "version": "1.0.0",
+  "description": "Given a sentence, paragraph or novel, count the letters in the string. Ignore whitespace and anything not [a-z][a-z], i.e. punctuations and numbers.",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha --no-timeouts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeahMarke/JS211_CountIt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeahMarke/JS211_CountIt/issues"
+  },
+  "homepage": "https://github.com/LeahMarke/JS211_CountIt#readme",
+  "dependencies": {
+    "mocha": "^10.0.0"
+  }
+}
