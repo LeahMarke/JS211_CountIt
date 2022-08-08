@@ -19,10 +19,12 @@ Output: Letters and how often they show up. - d:1 e:1 h:1 l:3 o:2 r:1 w:1
 
 Push yourself further
 Use RegEx 2. Make a word count 3. Count each word's appearance 4. [Calculate the grade level/proficiency of English](https://www.thoughtco.com/calculating-reading-level-1857103) for the sentence, paragraph or novel
-
+Leah's Pseudo-code:
 English => pseudo code:
 take in a sentence from user, 'sentence will be a string',
 
 need to loop through array and perform function on each character
 need to identify each character and store it in a variable of same characters ie "d"
 count how many "d"s there are for each character
+
+Image used: John-Mark Smith on Unsplash
