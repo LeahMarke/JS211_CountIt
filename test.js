@@ -51,21 +51,8 @@ getPrompt();
 if (typeof describe === "function") {
   describe("#testing sentence with special characters", () => {
     it("should eliminate special characters from return statement", () => {
-      let acct1 = new BankAccount("xx4432", "James Doe");
-      assert.equal(acct1.owner, "James Doe");
-      assert.equal(acct1.accountNumber, "xx4432");
-      assert.equal(acct1.transactions.length, 0);
-      assert.equal(acct1.balance(), 0);
-    });
-  });
-  describe("#testing account balance", () => {
-    it("should create a new account correctly", () => {
-      let acct1 = new BankAccount("xx4432", "James Doe");
-      assert.equal(acct1.balance(), 0);
-      acct1.deposit(100);
-      assert.equal(acct1.balance(), 100);
-      acct1.charge("Target", 10);
-      assert.equal(acct1.balance(), 90);
+      let sentence1 = "Hi $";
+      assert.equal(sentence1, "There are 1 - H's", "There are 1 - I's");
     });
   });
 }
